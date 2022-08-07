@@ -46,17 +46,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Forma1\FrmForma2Formulario2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forma1\FrmForma2Formulario2.Designer.cs">
-      <DependentUpon>FrmForma2Formulario2.cs</DependentUpon>
-    </Compile>
     <Compile Include="Forma1\FrmForma1Formulario1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forma1\FrmForma1Formulario1.Designer.cs">
       <DependentUpon>FrmForma1Formulario1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forma1\FrmForma1Formulario2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forma1\FrmForma1Formulario2.Designer.cs">
+      <DependentUpon>FrmForma1Formulario2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forma2\FrmForma2Formulario1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forma2\FrmForma2Formulario1.Designer.cs">
+      <DependentUpon>FrmForma2Formulario1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forma2\FrmForma2Formulario2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forma2\FrmForma2Formulario2.Designer.cs">
+      <DependentUpon>FrmForma2Formulario2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forma3\FrmForma3Formulario1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forma3\FrmForma3Formulario1.Designer.cs">
+      <DependentUpon>FrmForma3Formulario1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forma3\FrmForma3Formulario2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forma3\FrmForma3Formulario2.Designer.cs">
+      <DependentUpon>FrmForma3Formulario2.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmMDI.cs">
       <SubType>Form</SubType>
@@ -68,6 +92,21 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forma1\FrmForma1Formulario1.resx">
       <DependentUpon>FrmForma1Formulario1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forma1\FrmForma1Formulario2.resx">
+      <DependentUpon>FrmForma1Formulario2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forma2\FrmForma2Formulario1.resx">
+      <DependentUpon>FrmForma2Formulario1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forma2\FrmForma2Formulario2.resx">
+      <DependentUpon>FrmForma2Formulario2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forma3\FrmForma3Formulario1.resx">
+      <DependentUpon>FrmForma3Formulario1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forma3\FrmForma3Formulario2.resx">
+      <DependentUpon>FrmForma3Formulario2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMDI.resx">
       <DependentUpon>FrmMDI.cs</DependentUpon>
